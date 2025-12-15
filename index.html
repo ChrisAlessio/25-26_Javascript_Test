@@ -27,8 +27,9 @@
 					<li><a href="#">Nav Link 7</a></li>
 					<!-- Buttons for Task 3 and Task 4 should be placed here -->
                     <!--Task 3 Button-->
-                    <li><button class="button" onclick=clicked()>Click me!</button></li>
+                    <li><button class="button btn" onclick=clicked()>Click me!</button></li>
                     <!--Task 4 Button-->
+                    <li><button class="button btn" onclick=newPage()>Clear</button></li>
 					
 				</ul>
 			</div>
@@ -65,18 +66,18 @@
 					<hr>
 
 					<h3>Task 1 - The Image</h3>
-					<img onClick = "functionName()" src="assets/img/compIcon.png" id="imageTask1"><br />
-					<button style="display:none" id="buttonTask1">Click Me</button>
+					<img onMouseOver = "showButton()" src="assets/img/compIcon.png" id="imageTask1"><br />
+					<button onclick = "hideImage()" style="display:none" id="buttonTask1">Click Me</button>
 					<hr>
 										
 					<h3>Task 2 - The Table</h3>
 					<!-- Buttons for this task should be entered before the table tag. -->
                     <!-- Button 1 - Green -->
-                    <button class="" onclick=greenify()>Greenify Table!</button>
+                    <button class="btn" onclick=greenify()>Greenify Table!</button>
                     <!-- Button 2 - Yellow-->
-                    <button class="" onclick=yellowify()>Yellowify Table!</button>
+                    <button class="btn" onclick=yellowify()>Yellowify Table!</button>
                     <!-- Button 3 - Blue-->
-                    <button class="" onclick=blueify()>Blueify Table!</button>
+                    <button class="btn" onclick=blueify()>Blueify Table!</button>
 					
 					
 					<table id="identityTable" class="table table-striped">
