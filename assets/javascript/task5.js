@@ -1,8 +1,11 @@
 /* Put code for the task below */
 function nameEmpty(){
+    //Check if the value entered into the form is empty
     if(document.getElementById("fullName").value === ""){
+        //Set the background to red if it is empty
         document.getElementById("fullName").style.backgroundColor="red"
     }else{
+        //If it isn't empty change the color back to white
         document.getElementById("fullName").style.backgroundColor="white"
     }
 }

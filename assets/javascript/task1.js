@@ -1,9 +1,10 @@
 /* Put code for the task below */
 function showButton(){
-    document.getElementById("buttonTask1").innerHTML="<button onclick = 'hideImage()' style='display:' id='buttonTask1'>Click Me</button>"
-    //alert("test")
+    //Set the display style to be empty
+    document.getElementById("buttonTask1").style.display=""
 }
 
 function hideImage(){
+    //Set the display style to hide the image
     document.getElementById("imageTask1").style.display="none"
 }
